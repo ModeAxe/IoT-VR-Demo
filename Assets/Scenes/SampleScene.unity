@@ -344,6 +344,7 @@ GameObject:
   - component: {fileID: 264553980}
   - component: {fileID: 264553979}
   - component: {fileID: 264553978}
+  - component: {fileID: 264553982}
   m_Layer: 0
   m_Name: board
   m_TagString: Untagged
@@ -427,6 +428,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &264553982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264553977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 906176cedad930741a03eff4b4f8edea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textureURL: https://www.directmaterial.com/site/assets/images/products/2-liquid-filled-pressure-gauges-stainless-steel-case-brass-1-4-npt-center-back-mount-connection_main-0.jpg
 --- !u!1 &327317601
 GameObject:
   m_ObjectHideFlags: 0

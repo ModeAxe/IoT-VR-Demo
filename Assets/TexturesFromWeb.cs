@@ -6,12 +6,12 @@ using UnityEngine.Networking;
 public class TexturesFromWeb : MonoBehaviour
 {
 
-    public string texUrlInput;
+    public string textureURL;
 
     [System.Obsolete]
     public void setTextureFromWeb()
     {
-        string textureurl = texUrlInput;
+        string textureurl = textureURL;
         StartCoroutine(DownloadTexture(textureurl));
     }
 
