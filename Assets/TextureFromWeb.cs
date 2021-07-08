@@ -1,17 +1,17 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.Networking;
 
 public class TexturesFromWeb : MonoBehaviour
 {
 
-    public InputField texUrlInput;
+    public string texUrlInput;
 
     [System.Obsolete]
     public void setTextureFromWeb()
     {
-        string textureurl = texUrlInput.text;
+        string textureurl = texUrlInput;
         StartCoroutine(DownloadTexture(textureurl));
     }
 
