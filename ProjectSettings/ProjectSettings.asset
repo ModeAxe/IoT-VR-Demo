@@ -672,7 +672,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: VUPLEX_CCU;VUPLEX_OCULUS
+    1: VUPLEX_CCU;STARTER_ASSETS_PACKAGES_CHECKED;VUPLEX_OCULUS
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -763,7 +763,7 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 0
+  activeInputHandler: 1
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
