@@ -16,7 +16,7 @@ public class SceneController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        spawnWebView();
     }
 
     // Update is called once per frame
@@ -25,7 +25,7 @@ public class SceneController : MonoBehaviour
         if (UnityEngine.InputSystem.Keyboard.current.vKey.wasPressedThisFrame)
         {
             mainLight.SetActive(mainLight.activeInHierarchy ? false : true);
-            spawnWebView();
+            _mainWebViewPrefab.WebView.ExecuteJavaScript("document.write('LIGHT SWITCH')");
 
         }
 
