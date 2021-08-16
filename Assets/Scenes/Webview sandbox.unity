@@ -1501,7 +1501,7 @@ PrefabInstance:
     - target: {fileID: 114949350411584270, guid: d704fe1266adf446ebcfa350586e1bc7,
         type: 3}
       propertyPath: InitialUrl
-      value: kryten.janakj.net
+      value: http://kryten.janakj.net/?topic=/irt/button2&name=Button2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d704fe1266adf446ebcfa350586e1bc7, type: 3}
