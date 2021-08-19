@@ -42,4 +42,17 @@ public class SceneController : MonoBehaviour
         };
 
     }
+
+    public void lightState(String state)
+    {
+        if (state.Equals("0"))
+        {
+            mainLight.SetActive(false);
+        }
+        else
+        {
+            mainLight.SetActive(true);
+        }
+        //mainLight.SetActive(mainLight.activeInHierarchy ? false : true);
+    }
 }
